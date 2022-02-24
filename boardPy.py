@@ -65,10 +65,10 @@ position40= 930,790
 runing = True
 while runing:
     window.blit(backgroundImage,(0,0))
-    window.blit(playerOne,(position40))
+    window.blit(playerOne,(position25))
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            running = False
+            runing = False
 
 
     pygame.display.update()
